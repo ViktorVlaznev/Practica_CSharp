@@ -1,11 +1,11 @@
 ﻿// Напишите программу, в которой для введенного пользователем числа
-// в бинарном представлении третий бит устанавливает равным единице.
+// в бинарном представлении четвертый бит устанавливает равным нулю.
 
 using Microsoft.VisualBasic;
 
 string ChangeThirdCharinBinar(int num)
 {   
-    num |= 1 << 2;
+    num != 0 << 3;
     string binar = Convert.ToString(num, 2);
     return binar;
 }
